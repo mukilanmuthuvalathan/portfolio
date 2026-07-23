@@ -1,4 +1,4 @@
-import { BrainHologram } from "@/components/BrainHologram";
+import { NeuralGlobe } from "@/components/NeuralGlobe";
 import { ParticleField } from "@/components/ParticleField";
 import { AISystems } from "@/components/AISystems";
 
@@ -17,7 +17,7 @@ export default function Home() {
           <div className="actions"><a href="#work" className="primary">View projects <span>&#8599;</span></a><a href="#contact">Contact me <span>&#8594;</span></a></div>
           <ul className="tech"><li>LLMs</li><li>Multimodal AI</li><li>RAG</li><li>AI Agents</li></ul>
         </div>
-        <BrainHologram />
+        <NeuralGlobe />
         <a href="#work" className="scroll">Scroll to explore <span>&#8595;</span></a>
       </section>
 
